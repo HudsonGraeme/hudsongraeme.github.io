@@ -31,7 +31,7 @@ const projects = [
         title: "Real Time Bus Tracker",
         description:
             `
-        A web application that tracks buses in semi-realtime using the ottawa transport API.
+        A web application that tracks buses in semi-realtime using the Ottawa transport API.
         This application features custom map markers with each bus's data displayed on a callout that can be expanded by clicking on each marker.
         By selecting an interval from the selection boxes, users are able to choose the rate at which new data is fetched and loaded from the server.
         The animation can be paused and resumed at any time, and whenever new data is being processed, a status indicator is displayed within the toggle button.

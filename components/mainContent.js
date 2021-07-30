@@ -15,7 +15,7 @@ const mainHtml =
         I started with Swift in 2015 and progressively began to learn more languages over time.
         On my GitHub profile, you'll find several projects in many of the languages that I have picked up over time such as C, C#, Java and JavaScript.
         This year, my focus is on JavaScript and the MERN stack, something that is relatively new to me. This portfolio itself and the example projects within
-        illustrate some of the practises I have been fortunate enough to learn over my experience learning the stack.
+        illustrate some of the practices I have been fortunate enough to learn over my experience learning the stack.
         <br/>
         Thanks for checking out my portfolio!
         </p>
