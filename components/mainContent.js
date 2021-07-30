@@ -19,7 +19,7 @@ const mainHtml =
         <br/>
         Thanks for checking out my portfolio!
         </p>
-        <button class="btn btn-light" href="https://github.com/HudsonGraeme" target="_blank">
+        <button class="btn btn-light" onclick="window.open('https://github.com/HudsonGraeme', '_blank');">
             <img class="mx-2" height="20px" src="images/GitHub.png">
                 <b>
                     @HudsonGraeme
@@ -27,7 +27,7 @@ const mainHtml =
                 on GitHub
             </img>
         </button>
-        <button class="btn btn-light" href="https://www.linkedin.com/in/spencer-graham-4ba756190" target="_blank">
+        <button class="btn btn-light" onclick="window.open('https://www.linkedin.com/in/spencer-graham-4ba756190', '_blank');">
             <img class="mx-2" height="20px" src="images/linkedin.png">
                 <b>
                     @Spencer Graham
