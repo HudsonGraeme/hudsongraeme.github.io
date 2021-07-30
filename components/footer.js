@@ -4,12 +4,16 @@ const footerHtml =
     <div class="w-100 row">
         <div class="mx-3 col">
             <button class="btn btn-light align-middle mx-2" id="ghbutton">
-                Open GitHub
+                Find me on <b>GitHub</b>
                 <img src="images/GitHub.png" height="20px"/>
             </button>
             <button class="btn btn-light align-middle mx-2" id="emailbutton">
-                Send me an Email
+                Send me an <b>Email</b>
                 <img src="images/email.svg" height="20px"/>
+            </button>
+            <button class="btn btn-light align-middle mx-2" id="linkedinbutton">
+                Find me on <b>LinkedIn</b>
+                <img src="images/linkedin.png" height="20px"/>
             </button>
         </div>
     </div>
@@ -26,6 +30,7 @@ class Foot extends HTMLElement {
         this.innerHTML = footerHtml;
         document.getElementById('ghbutton').onclick = this.gitHubLink;
         document.getElementById('emailbutton').onclick = this.emailLink;
+        document.getElementById('linkedinbutton').onclick = this.linkedinLink;
     };
 
     gitHubLink = () => {
@@ -36,6 +41,10 @@ class Foot extends HTMLElement {
 
     emailLink = () => {
         window.open('mailto:spencer@carspotter.ca');
+    }
+
+    linkedinLink = () => {
+        window.open('https://www.linkedin.com/in/spencer-graham-4ba756190/', '_blank');
     }
 
 }
