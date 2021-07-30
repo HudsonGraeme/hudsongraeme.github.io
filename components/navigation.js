@@ -51,15 +51,13 @@ class Navigation extends HTMLElement {
     const mainLink = document.getElementById('main');
     const projectsLink = document.getElementById('projects');
     switch (currentLocation) {
-      case 'index':
-        mainLink.style.textDecoration = "underline";
-        mainLink.classList.add("active");
-        break;
       case 'projects':
         projectsLink.style.textDecoration = "underline";
         projectsLink.classList.add("active");
         break;
       default:
+        mainLink.style.textDecoration = "underline";
+        mainLink.classList.add("active");
         break;
     }
   };
